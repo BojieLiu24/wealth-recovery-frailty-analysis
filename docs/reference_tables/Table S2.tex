@@ -1,0 +1,45 @@
+\begin{landscape}
+\fontsize{9.5}{11.5}\selectfont
+\setlength{\tabcolsep}{3.2pt}
+\renewcommand{\arraystretch}{1.22}
+
+\captionof{table}{Cohort-specific wealth measures, harmonisation, and component coverage.}
+\label{tab:s2_wealth_exposure}
+
+\textbf{Panel A. Cohort-specific wealth measures and harmonisation}\par
+\vspace{0.15em}
+
+\begin{tabularx}{\linewidth}{@{}L{1.15cm}L{2.75cm}L{5.85cm}L{3.00cm}L{4.45cm}Y@{}}
+\toprule
+Cohort & Source variable & Wealth construct & Reporting unit & Price adjustment & Equivalisation \\
+\midrule
+HRS & \texttt{h\{wave\}atotw} & Total wealth excluding IRA/Keogh assets & Household/couple & 2022 USD; CPI-U & $\div 1.5$ couples; $\div 1.0$ single respondents \\
+ELSA & \texttt{h\{wave\}atotb} & Total family wealth including second home, excluding vehicles & Family/couple & 2020 GBP; Gateway CPI & $\div 1.5$ couples; $\div 1.0$ single respondents \\
+KLoSA & \texttt{r\{wave\}atotb} & Net total assets & Respondent & 2022 KRW; Gateway CPI; 10,000-KRW units & None \\
+\bottomrule
+\end{tabularx}
+
+
+\vspace{0.7em}
+\textbf{Panel B. Broad component coverage of the source wealth measures}\par
+\vspace{0.15em}
+
+\begin{tabularx}{\linewidth}{@{}Y L{3.0cm}L{3.0cm}L{3.0cm}@{}}
+\toprule
+Wealth component & HRS & ELSA & KLoSA \\
+\midrule
+Primary residence & Yes & Yes & Yes \\
+Other residential and non-residential real estate & Yes & Yes & Yes \\
+Business and farm assets & Yes & Yes & Yes \\
+Vehicles and transportation assets & Yes & --- & Yes \\
+Non-housing financial assets & Yes & Yes & Yes \\
+Other physical or non-financial assets & --- & Yes & Yes \\
+Applicable debts deducted & Yes & Yes & Yes \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.18em}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} A major wealth shock was defined as a decline of at least 75\% in total wealth from the pre-shock ($t-1$) to the shock ($t$) interview. Pre-shock wealth was required to be positive; zero or negative wealth at the shock and landmark ($t+1$) interviews was retained. Wealth recovery was calculated as the increase from shock to landmark divided by the shock-related loss. Recovery status was fixed at the landmark. Substantial recovery required at least 50\% of the loss to be regained; sensitivity analyses used 25\% of the loss regained and recovery to or above the pre-shock wealth level (100\%). Price adjustment used interview year where available. Because wealth constructs, reporting units, and currencies differed, absolute wealth amounts were not compared across cohorts. CPI, Consumer Price Index; CPI-U, Consumer Price Index for All Urban Consumers; USD, US dollars; GBP, pounds sterling; KRW, South Korean won; IRA, individual retirement account; HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\par\vspace{0.3em}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont Yes denotes an included broad component. An em dash denotes no dedicated corresponding component, rather than exclusion of every asset in that category. In HRS, valuables and annuities may be reported under other savings. ATOTW excludes IRA/Keogh account balances. ELSA excludes vehicles. Its non-housing financial wealth excludes life-insurance values and pension plans. KLoSA reports individual assets. Its vehicle values are gross of vehicle debt, and other financial assets include the present value of private annuities. Pension income is distinct from asset balances and pension entitlements. The documented HRS and KLoSA construction formulas do not add a separate capitalised value for public or employer pension rights. The totals are not comprehensive measures of pension wealth. Component valuation and debt coverage vary across cohorts, so the wealth constructs are not fully equivalent.}
+\end{landscape}

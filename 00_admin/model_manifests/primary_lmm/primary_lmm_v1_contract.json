@@ -1,0 +1,70 @@
+{
+  "contract_version": "primary_lmm_v1",
+  "status": "LOCKED",
+  "estimand": "adjusted_difference_in_annual_fi_change_substantial_recovery_vs_persistent_or_limited_recovery",
+  "sample": "primary_complete_case_eligible",
+  "outcome": "fi_primary",
+  "time": "time_years_from_landmark_using_actual_interview_year_month",
+  "model": {
+    "family": "linear_mixed_effects",
+    "fit": "maximum_likelihood",
+    "reml": false,
+    "random_effect": "participant_random_intercept",
+    "weighting": "unweighted",
+    "primary_inference": "model_based_wald_95_ci",
+    "fixed_effect_structure": "recovery*time + prespecified_covariates + prespecified_covariates*time",
+    "recovery_reference": "persistent_or_limited_recovery"
+  },
+  "adjustment": {
+    "continuous_variables": [
+      "age",
+      "household_size",
+      "household_income_rank",
+      "wealth_loss_fraction",
+      "fi_t"
+    ],
+    "continuous_transformations": {
+      "wealth_loss_fraction": "raw_continuous_no_transformation",
+      "standardization": "cohort_specific_unique_primary_participant_mean_and_sample_sd"
+    },
+    "categorical_reference_levels": {
+      "sex": "Male",
+      "education": "High",
+      "marital_status": "Married/partnered",
+      "labour_force_status": "Working",
+      "current_smoking": "False",
+      "wealth_quintile": 5
+    }
+  },
+  "prediction": {
+    "figure_3_display_range_years": [0, 8],
+    "grid_step_years": 0.25,
+    "fixed_effect_predictions": true,
+    "random_effects_set_to_zero": true,
+    "same_empirical_covariate_distribution": true,
+    "pointwise_ci": true,
+    "shared_y_axis": true,
+    "y_axis_zero_origin": false
+  },
+  "meta": {
+    "analysis": "secondary_random_effects",
+    "tau2_method": "REML",
+    "ci_method": "modified_Knapp_Hartung_adhoc",
+    "heterogeneity": ["tau2", "I2"],
+    "participant_level_pooling": false
+  },
+  "optimizer": {
+    "primary": "lbfgs",
+    "verification": "bfgs",
+    "beta3_absolute_tolerance": 1e-6,
+    "loglik_absolute_tolerance": 1e-4
+  },
+  "scope": {
+    "weighted_analysis": false,
+    "multiple_imputation": false,
+    "common22": false,
+    "alternative_recovery_thresholds": false,
+    "manuscript_or_supplement_edit": false,
+    "participant_identifiers_in_outputs": false
+  }
+}

@@ -1,0 +1,59 @@
+cohort,rule_type,source_code,canonical_scope_status,entry_wave,semantic_authority,codebook_version,codebook_page,codebook_locator,verification_status,resolution_note
+HRS,interview_status,0,pre_entry,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,75,RwIWSTAT construction,verified,Code 0 is used when the respondent has not yet entered the sample
+HRS,interview_status,1,in_scope,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,74-75,RwIWSTAT categorical codes,verified,Respondent alive
+HRS,interview_status,4,in_scope,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,74-75,RwIWSTAT categorical codes,verified,Known or presumed alive nonrespondent remains in scope
+HRS,interview_status,5,post_death,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,74-75,RwIWSTAT construction,verified,Died between the prior interview and current wave
+HRS,interview_status,6,post_death,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,74-75,RwIWSTAT construction,verified,Died before a previous wave
+HRS,interview_status,7,post_permanent_exit,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,74-75,RwIWSTAT construction,verified,Dropped from the sample by tracker status
+HRS,interview_status,9,scope_unknown,,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,75,RwIWSTAT construction,verified,Alive or death state is unknown
+HRS,sample_cohort_entry,0,,1,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82,HRS-AHEAD overlap entry cohort,verified,Overlap cases can appear at wave 1
+HRS,sample_cohort_entry,1,,2,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,AHEAD entry cohort,verified,AHEAD enters at wave 2A
+HRS,sample_cohort_entry,2,,4,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,CODA entry cohort,verified,CODA enters at wave 4
+HRS,sample_cohort_entry,3,,1,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,HRS entry cohort,verified,HRS enters at wave 1
+HRS,sample_cohort_entry,4,,4,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,War Babies entry cohort,verified,War Babies enter at wave 4
+HRS,sample_cohort_entry,5,,7,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,Early Baby Boomers entry cohort,verified,EBB enters at wave 7
+HRS,sample_cohort_entry,6,,10,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,Mid Baby Boomers entry cohort,verified,MBB enters at wave 10
+HRS,sample_cohort_entry,7,,13,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,Late Baby Boomers entry cohort,verified,LBB enters at wave 13
+HRS,sample_cohort_entry,8,,16,RAND HRS codebook,RAND HRS Longitudinal File 2022 V1 May 2025,13;82;155,Early Generation X entry cohort,verified,EGENX enters at wave 16
+ELSA,interview_status,0,pre_entry,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Code 0 is assigned to waves before later sample entry
+ELSA,interview_status,1,in_scope,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat categorical codes,verified,Respondent alive
+ELSA,interview_status,4,in_scope,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Known alive nonrespondent remains in scope
+ELSA,interview_status,5,post_death,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Died between the prior interview and current wave
+ELSA,interview_status,6,post_death,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Died before a previous wave
+ELSA,interview_status,7,post_permanent_exit,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Dropped from sample
+ELSA,interview_status,9,scope_unknown,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,34,rWiwstat construction,verified,Alive or death state is unknown
+ELSA,sample_cohort_entry,1,,1,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e original sample,verified,Original sample
+ELSA,sample_cohort_entry,2,,1,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e original partner,verified,Original-sample partner
+ELSA,sample_cohort_entry,3,,1,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e original young partner,verified,Original-sample young partner
+ELSA,sample_cohort_entry,4,,3,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 3 refreshment,verified,Wave 3 refreshment sample
+ELSA,sample_cohort_entry,5,,3,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 3 partner,verified,Wave 3 refreshment partner
+ELSA,sample_cohort_entry,6,,3,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 3 young partner,verified,Wave 3 refreshment young partner
+ELSA,sample_cohort_entry,7,,3,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 3 older partner,verified,Wave 3 refreshment older partner
+ELSA,sample_cohort_entry,8,,4,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 4 refreshment,verified,Wave 4 refreshment sample
+ELSA,sample_cohort_entry,9,,4,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 4 partner,verified,Wave 4 refreshment partner
+ELSA,sample_cohort_entry,10,,4,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 4 young partner,verified,Wave 4 refreshment young partner
+ELSA,sample_cohort_entry,11,,4,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 4 older partner,verified,Wave 4 refreshment older partner
+ELSA,sample_cohort_entry,12,,6,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 6 refreshment,verified,Wave 6 refreshment sample
+ELSA,sample_cohort_entry,13,,6,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 6 partner,verified,Wave 6 refreshment partner
+ELSA,sample_cohort_entry,14,,6,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 6 young partner,verified,Wave 6 refreshment young partner
+ELSA,sample_cohort_entry,15,,6,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 6 older partner,verified,Wave 6 refreshment older partner
+ELSA,sample_cohort_entry,16,,7,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 7 refreshment,verified,Wave 7 refreshment sample
+ELSA,sample_cohort_entry,17,,7,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 7 partner,verified,Wave 7 refreshment partner
+ELSA,sample_cohort_entry,18,,7,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 7 young partner,verified,Wave 7 refreshment young partner
+ELSA,sample_cohort_entry,19,,7,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 7 older partner,verified,Wave 7 refreshment older partner
+ELSA,sample_cohort_entry,20,,9,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 9 refreshment,verified,Wave 9 refreshment sample
+ELSA,sample_cohort_entry,21,,9,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 9 partner,verified,Wave 9 refreshment partner
+ELSA,sample_cohort_entry,22,,9,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 9 young partner,verified,Wave 9 refreshment young partner
+ELSA,sample_cohort_entry,23,,9,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 9 older partner,verified,Wave 9 refreshment older partner
+ELSA,sample_cohort_entry,24,,10,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 10 refreshment,verified,Wave 10 refreshment sample
+ELSA,sample_cohort_entry,25,,10,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37-39,rWcohort_e wave 10 partner,verified,Wave 10 refreshment partner
+ELSA,sample_cohort_status,-5,administratively_unavailable,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37,rWcohort_e special non-eligible code,verified,Supports exports that materialise the .e category as -5
+ELSA,sample_cohort_missing_tag,e,administratively_unavailable,,Gateway Harmonized ELSA Version H codebook,Gateway Harmonized ELSA Version H 2002-2023 September 2025,37,rWcohort_e special missing .e,verified,Non-eligible means not a sample member or partner
+KLoSA,interview_status,0,pre_entry_if_before_entry,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29-30,rWiwstat categorical codes,verified,Code 0 is treated as pre-entry only when confirmed by HACOHORT
+KLoSA,interview_status,1,in_scope,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29,rWiwstat construction,verified,Respondent alive
+KLoSA,interview_status,4,in_scope,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29,rWiwstat construction,verified,Alive nonrespondent remains in scope
+KLoSA,interview_status,5,post_death,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29,rWiwstat construction,verified,Died between the prior interview and current wave
+KLoSA,interview_status,6,post_death,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29,rWiwstat construction,verified,Died before a previous wave
+KLoSA,interview_status,9,scope_unknown,,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,29,rWiwstat construction,verified,Alive or death state is unknown
+KLoSA,sample_cohort_entry,1,,1,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,33,HACOHORT original cohort,verified,Original sample enters at wave 1
+KLoSA,sample_cohort_entry,2,,5,Gateway Harmonized KLoSA Version F codebook,Gateway Harmonized KLoSA Version F 2006-2022 June 2025,33,HACOHORT wave 5 add cohort,verified,Add sample enters at wave 5

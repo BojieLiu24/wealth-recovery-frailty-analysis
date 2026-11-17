@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Healthcare article when using these study materials."
+type: software
+title: "Wealth recovery and frailty: analytical code and aggregate verification"
+authors:
+  - family-names: Liu
+    given-names: Bojie
+  - family-names: Guo
+    given-names: Jia
+  - family-names: Zhang
+    given-names: Dong
+  - family-names: Zhou
+    given-names: Zaiying
+  - family-names: Dong
+    given-names: Yichen
+preferred-citation:
+  type: article
+  title: "Wealth Recovery and Subsequent Frailty Progression after a Major Wealth Shock: A Longitudinal Study across Three National Ageing Cohorts"
+  journal: Healthcare
+  year: 2026
+  authors:
+    - family-names: Liu
+      given-names: Bojie
+    - family-names: Guo
+      given-names: Jia
+    - family-names: Zhang
+      given-names: Dong
+    - family-names: Zhou
+      given-names: Zaiying
+    - family-names: Dong
+      given-names: Yichen
+abstract: "Accompanying code and aggregate verification for manuscript healthcare-4603924, accepted 16 November 2026. Aggregate verification is distinct from independent cohort-model re-estimation."

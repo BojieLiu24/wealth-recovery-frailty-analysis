@@ -1,0 +1,199 @@
+{
+  "publication_projection": true,
+  "not_an_original_freeze": true,
+  "source_contract_sha256": "57fabb54d896cd0ea6ca693f0e5d8396cce58eaead3a095bdd45491691e46c5d",
+  "scientific_specification": {
+    "specs": {
+      "PO01": {
+        "formula": "fi_primary ~ recovery * time_years + age_z + household_size_z + household_income_rank_z + wealth_loss_fraction_z + fi_t_z + C(sex, Treatment(reference='Male')) + C(education, Treatment(reference='High')) + C(marital_status, Treatment(reference='Married/partnered')) + C(labour_force_status, Treatment(reference='Working')) + C(current_smoking, Treatment(reference='False')) + C(wealth_quintile, Treatment(reference='5')) + age_z:time_years + household_size_z:time_years + household_income_rank_z:time_years + wealth_loss_fraction_z:time_years + fi_t_z:time_years + C(sex, Treatment(reference='Male')):time_years + C(education, Treatment(reference='High')):time_years + C(marital_status, Treatment(reference='Married/partnered')):time_years + C(labour_force_status, Treatment(reference='Working')):time_years + C(current_smoking, Treatment(reference='False')):time_years + C(wealth_quintile, Treatment(reference='5')):time_years",
+        "nominal_columns": 42,
+        "basis_columns": {
+          "HRS": 42,
+          "ELSA": 42,
+          "KLoSA": 41
+        },
+        "interpretation": {
+          "core_estimand": "在相同原调整条件下，仅使用landmark之后FI观察估计的组间年变化速度差。",
+          "units": "FI units/year",
+          "direction": "substantial_recovery_minus_persistent_or_limited_recovery",
+          "conditional_association_statement": null,
+          "causally_identified": false,
+          "intercept_role": "extrapolated_nuisance_not_observed_landmark_mean",
+          "recovery_main_role": "extrapolated_nuisance_not_observed_landmark_difference",
+          "landmark_level_claims_allowed": false,
+          "level_trajectory_plots_allowed": false,
+          "coefficient_difference_is_mediation_or_reverse_causality_contribution": false,
+          "can_be_called_more_confounder_control": null
+        }
+      },
+      "LM01": {
+        "formula": "fi_primary ~ recovery * time_years + age_z + household_size_z + household_income_rank_z + wealth_loss_fraction_z + fi_t_z + C(sex, Treatment(reference='Male')) + C(education, Treatment(reference='High')) + C(marital_status, Treatment(reference='Married/partnered')) + C(labour_force_status, Treatment(reference='Working')) + C(current_smoking, Treatment(reference='False')) + C(wealth_quintile, Treatment(reference='5')) + age_z:time_years + household_size_z:time_years + household_income_rank_z:time_years + wealth_loss_fraction_z:time_years + fi_t_z:time_years + C(sex, Treatment(reference='Male')):time_years + C(education, Treatment(reference='High')):time_years + C(marital_status, Treatment(reference='Married/partnered')):time_years + C(labour_force_status, Treatment(reference='Working')):time_years + C(current_smoking, Treatment(reference='False')):time_years + C(wealth_quintile, Treatment(reference='5')):time_years + fi_landmark_z + fi_landmark_z:time_years",
+        "nominal_columns": 44,
+        "basis_columns": {
+          "HRS": 44,
+          "ELSA": 44,
+          "KLoSA": 43
+        },
+        "interpretation": {
+          "core_estimand": "进一步条件于landmark FI及其与时间的关联后的组间年变化速度差。",
+          "units": "FI units/year",
+          "direction": "substantial_recovery_minus_persistent_or_limited_recovery",
+          "conditional_association_statement": "LM01 is a post-landmark conditional association analysis, not an alternative estimate of a causally identified effect of wealth recovery.",
+          "causally_identified": false,
+          "intercept_role": "extrapolated_nuisance_not_observed_landmark_mean",
+          "recovery_main_role": "extrapolated_nuisance_not_observed_landmark_difference",
+          "landmark_level_claims_allowed": false,
+          "level_trajectory_plots_allowed": false,
+          "coefficient_difference_is_mediation_or_reverse_causality_contribution": false,
+          "can_be_called_more_confounder_control": false
+        }
+      }
+    },
+    "primary_reference_interpretation": {
+      "core_estimand": "在原调整条件下，使用landmark及后续FI估计的组间平均FI年变化速度差。",
+      "units": "FI units/year",
+      "direction": "substantial_recovery_minus_persistent_or_limited_recovery",
+      "conditional_association_statement": null,
+      "causally_identified": false,
+      "intercept_role": "frozen_reference",
+      "recovery_main_role": "frozen_reference",
+      "landmark_level_claims_allowed": false,
+      "level_trajectory_plots_allowed": false,
+      "coefficient_difference_is_mediation_or_reverse_causality_contribution": false,
+      "can_be_called_more_confounder_control": null
+    },
+    "sample": "unchanged_primary_participants_including_single_post_observation",
+    "rows": "fi_time_role=later AND time_years>0; PO01 and LM01 identical ordered person-wave keys",
+    "time": "actual elapsed years since original landmark; no recentering",
+    "outcome": "fi_primary from frozen Analysis Panel v1",
+    "reml": false,
+    "random_design": "[1]",
+    "random_effects": "participant_random_intercept",
+    "weighting": "unweighted",
+    "original_standardization": "frozen_primary_unique_person_means_and_sample_SDs",
+    "landmark_standardization": {
+      "HRS": {
+        "mean": 0.27590343448876653,
+        "sample_sd": 0.18036326417461707,
+        "mean_hex": "0x1.1a866e0feeee4p-2",
+        "sample_sd_hex": "0x1.71624b883d01ep-3",
+        "ddof": 1,
+        "unique_primary_participants": 5114
+      },
+      "ELSA": {
+        "mean": 0.24084156700517512,
+        "sample_sd": 0.16453790549710362,
+        "mean_hex": "0x1.ed3e57ee6fdc8p-3",
+        "sample_sd_hex": "0x1.50f93fd87fcaep-3",
+        "ddof": 1,
+        "unique_primary_participants": 699
+      },
+      "KLoSA": {
+        "mean": 0.14472603690446656,
+        "sample_sd": 0.12056811682128088,
+        "mean_hex": "0x1.28661fdb13322p-3",
+        "sample_sd_hex": "0x1.edd8d56b00db0p-4",
+        "ddof": 1,
+        "unique_primary_participants": 2502
+      }
+    },
+    "categories": {
+      "sex": [
+        "Male",
+        "Female"
+      ],
+      "education": [
+        "High",
+        "Medium",
+        "Low"
+      ],
+      "marital_status": [
+        "Married/partnered",
+        "Separated/divorced",
+        "Widowed",
+        "Never married"
+      ],
+      "labour_force_status": [
+        "Working",
+        "Unemployed",
+        "Retired or partly retired",
+        "Other economically inactive"
+      ],
+      "current_smoking": [
+        "False",
+        "True"
+      ],
+      "wealth_quintile": [
+        "5",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "continuous": [
+      "age",
+      "household_size",
+      "household_income_rank",
+      "wealth_loss_fraction",
+      "fi_t"
+    ],
+    "parameterization": {
+      "KLoSA": "Q1*T=(23/12)*Q1; kappa=gamma+(23/12)*eta; retain all rows and covariate information",
+      "extra_rank_deficiency": "STOP_AND_REPORT",
+      "independent_Q1_coefficients_allowed": false
+    },
+    "optimizer": {
+      "sequence": [
+        "bfgs",
+        "lbfgs"
+      ],
+      "policy": {
+        "maxiter": 2000,
+        "bfgs_gtol": 1e-08,
+        "lbfgs_pgtol": 1e-10,
+        "lbfgs_factr": 100.0,
+        "loglik_optimizer_atol_exclusive": 0.0001,
+        "core_beta_optimizer_atol_exclusive": 1e-06,
+        "core_se_optimizer_rtol": 0.001,
+        "interior_scaled_gradient_tolerance": 0.001,
+        "primary_reconstruction_atol": 1e-10,
+        "equivalence_rtol": 1e-10,
+        "equivalence_atol": 1e-12,
+        "synthetic_loglik_atol": 1e-08,
+        "boundary_unscaled_variance_ratio": 1e-06,
+        "automatic_retry": false
+      },
+      "science_change": false,
+      "start": "frozen Primary beta mapped to basis; added LM beta=0; frozen tau2/sigma2",
+      "lbfgs_start": "bfgs.params_object.copy(); preserve covariance parameterization"
+    },
+    "comparison": {
+      "order": [
+        "Primary",
+        "PO01",
+        "LM01"
+      ],
+      "cross_window_loglik_AIC_comparison": false,
+      "model_selection_by_significance": false,
+      "coefficient_difference_inference": "descriptive_only"
+    },
+    "stage3_required_diagnostics": {
+      "time_bin_years": 2,
+      "tail_years": 8,
+      "tail_is_model_truncation": false,
+      "residual_and_support_summaries": true,
+      "same_window_LM01_vs_PO01_nested_loglik_tolerance": 0.0001,
+      "fixed_covariance_influence_screen": "e_RT.T @ inv(sum(Xi.T Vi^-1 Xi)) @ Xi.T Vi^-1 ri; no variance refit",
+      "influence_screen_is_final_LMM_SE": false
+    },
+    "later_stages": {
+      "freeze_requires_specific_result_approval": true,
+      "candidate_table_rows": 9,
+      "candidate_language": "English",
+      "new_plots": false
+    },
+    "additional_delta_model": false,
+    "additional_RS_NL_or_meta": false
+  }
+}

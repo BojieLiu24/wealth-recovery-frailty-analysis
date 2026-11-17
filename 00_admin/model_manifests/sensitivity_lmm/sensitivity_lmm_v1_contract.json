@@ -1,0 +1,39 @@
+{
+  "contract_version": "sensitivity_lmm_v1",
+  "status": "LOCKED",
+  "primary_contract": "primary_lmm_v1",
+  "estimand": "adjusted_difference_in_annual_fi_change_recovery_vs_persistent_or_limited_recovery",
+  "invariants": {
+    "fixed_effect_structure": "identical_to_primary_lmm_v1",
+    "continuous_parameterisation": "use_primary_lmm_v1_mean_and_sample_sd_without_recalculation",
+    "categorical_reference_levels": "identical_to_primary_lmm_v1",
+    "time": "actual_years_from_landmark",
+    "random_effect": "participant_random_intercept",
+    "fit": "maximum_likelihood"
+  },
+  "analyses": {
+    "recovery_25": {
+      "only_changed_component": "exposure_definition",
+      "definition": "recovery_fraction_raw >= 0.25",
+      "sample": "primary_complete_case_eligible",
+      "outcome": "fi_primary",
+      "secondary_meta": true
+    },
+    "recovery_100": {
+      "only_changed_component": "exposure_definition",
+      "definition": "recovery_fraction_raw >= 1.00",
+      "display_label": "Recovery threshold: 100% (return to pre-shock wealth)",
+      "sample": "primary_complete_case_eligible",
+      "outcome": "fi_primary",
+      "secondary_meta": true
+    },
+    "common22": {
+      "only_changed_component": "longitudinal_outcome_definition",
+      "outcome": "fi_common22",
+      "shock_time_frailty_adjustment": "fi_t_primary_unchanged",
+      "eligibility": "primary participants with one valid landmark and at least one valid later common22 FI",
+      "secondary_meta": true
+    }
+  },
+  "meta": "secondary_reml_modified_knapp_hartung_v1"
+}

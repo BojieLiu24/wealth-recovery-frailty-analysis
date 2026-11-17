@@ -1,0 +1,28 @@
+{
+  "fixture_version": "metafor_rma_uni_reml_adhoc_v1",
+  "metafor_version": "5.0-1",
+  "model": "rma.uni(method=\"REML\", test=\"adhoc\", intercept=TRUE)",
+  "yi": [
+    0.0012675325950632498,
+    -0.0014135450465020886,
+    0.0005787077172323017
+  ],
+  "sei": [
+    0.0003303103988759894,
+    0.001141694152770776,
+    0.0005857503665612168
+  ],
+  "expected": {
+    "estimate": 0.00047241188727239206,
+    "se": 0.00071013007344859378,
+    "ci_lower": -0.0025830312117283869,
+    "ci_upper": 0.0035278549862731712,
+    "tau2": 9.40247825165692e-07,
+    "i2_percent": 72.477119773006919,
+    "kh_scale": 1.0982655300992228,
+    "q_fixed": 5.6116713537384904,
+    "vt": 3.5705514177129428e-07,
+    "degrees_of_freedom": 2
+  },
+  "provenance": "Generated with the local metafor 5.0-1 installation using the frozen section_3_2_v1 cohort estimates and model-based SEs."
+}

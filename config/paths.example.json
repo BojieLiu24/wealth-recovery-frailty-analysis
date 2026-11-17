@@ -1,0 +1,11 @@
+{
+  "data_root": "../authorized-cohort-data",
+  "assets": {
+    "hrs_rand_longitudinal": "../authorized-cohort-data/randhrs1992_2022v1.dta",
+    "elsa_gateway_h": "../authorized-cohort-data/gh_elsa_h.dta",
+    "klosa_gateway_f": "../authorized-cohort-data/GH_KLoSA_f.dta",
+    "hrs_rand_longitudinal_codebook": "../authorized-cohort-data/hrs-codebook.pdf",
+    "elsa_gateway_h_codebook": "../authorized-cohort-data/elsa-H-codebook.pdf",
+    "klosa_gateway_f_codebook": "../authorized-cohort-data/klosa-F-codebook.pdf"
+  }
+}

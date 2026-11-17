@@ -1,0 +1,7 @@
+dependency,class,treatment
+00_admin/panel_design_register.csv; variable_maps; wave_maps,PUBLIC_SCIENTIFIC_SPECIFICATION,Scientific definitions retained; local provenance path annotations omitted
+00_admin/model_manifests/primary_lmm; sensitivity_lmm,PUBLIC_SCIENTIFIC_SPECIFICATION,"Primary/basic sensitivity scientific contracts and fixture, no original data"
+config/scientific_contracts,PUBLIC_SCIENTIFIC_SPECIFICATION,Explicit projections; not byte-identical freeze records and not execution authorization
+outputs/published_aggregates,PUBLIC_AGGREGATE_VALIDATION_REFERENCE,Cohort-level summaries; no individual data; author release authorization pending
+"Data-dependent panel manifests, source identity and schema validations",RESTRICTED_DATA_DEPENDENT_VALIDATION,Remain required in full historical wrappers; not disabled or fabricated
+"Storage mounts, author approval/authorization, internal run paths and logs",PRIVATE_OPERATIONAL_ARTIFACT,Excluded; not a Mode A dependency

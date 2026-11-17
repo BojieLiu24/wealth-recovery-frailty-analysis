@@ -1,0 +1,44 @@
+{
+  "contract_version": "mi_sensitivity_v1",
+  "status": "LOCKED",
+  "author_approval_date": "2026-09-16",
+  "sample": "analysis_panel_base_eligible_participant_level_mi_support_pool",
+  "software": "mice 3.19.0",
+  "imputations": 50,
+  "iterations": 20,
+  "cohort_seeds": {"HRS": 2026091601, "ELSA": 2026091602, "KLoSA": 2026091603},
+  "targets": {
+    "fi_t": "pmm_k5",
+    "current_smoking": "logreg",
+    "education": "polyreg",
+    "marital_status": "polyreg",
+    "labour_force_status": "polyreg"
+  },
+  "predictors": [
+    "all_other_prespecified_adjustment_variables",
+    "recovery",
+    "index_shock_wave",
+    "wealth_loss_asinh_z",
+    "landmark_fi_primary",
+    "later_fi_count",
+    "maximum_followup_years",
+    "later_fi_mean",
+    "first_later_fi",
+    "last_later_fi",
+    "later_fi_slope",
+    "later_fi_slope_estimable",
+    "HRS_fi_common22_at_shock_filled_and_missing_indicator"
+  ],
+  "wealth_loss_auxiliary_transformation": {
+    "function": "asinh",
+    "standardization": "cohort_specific_MI_pool_mean_and_sample_sd",
+    "role": "imputation_auxiliary_only",
+    "analysis_model_parameterisation_changed": false
+  },
+  "common22_auxiliary_handling": "HRS_only_median_fill_for_predictor_plus_missing_indicator_no_analysis_value_imputation",
+  "unchanged": ["exposure", "post_shock_frailty_outcomes", "interview_timing", "survey_weights", "longitudinal_row_structure"],
+  "analysis_model": "primary_lmm_v1_with_frozen_primary_standardisation_constants",
+  "within_cohort_pooling": "Rubin_rules_with_t_reference",
+  "secondary_meta": "secondary_reml_modified_knapp_hartung_v1",
+  "participant_level_outputs_retained": false
+}

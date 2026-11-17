@@ -1,0 +1,31 @@
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{11.5}\selectfont
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.22}
+\captionof{table}{Wealth Measurement and Sample-Restriction Sensitivity Analyses.}
+\label{tab:s9_wealth_sensitivity}
+\begin{tabularx}{\linewidth}{@{}L{5.0cm}*{3}{>{\centering\arraybackslash}p{1.7cm}>{\centering\arraybackslash}X}@{}}
+\toprule
+ & \multicolumn{2}{c}{HRS} & \multicolumn{2}{c}{ELSA} & \multicolumn{2}{c}{KLoSA} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Analysis specification & \shortstack{Participants,\\$n$} & \shortstack{Adjusted difference in annual\\FI change (95\% CI), FI units/year} & \shortstack{Participants,\\$n$} & \shortstack{Adjusted difference in annual\\FI change (95\% CI), FI units/year} & \shortstack{Participants,\\$n$} & \shortstack{Adjusted difference in annual\\FI change (95\% CI), FI units/year} \\
+\midrule
+Primary analysis & 5,114 & \shortstack[c]{0.001268\\(0.000620 to 0.001915)} & 699 & \shortstack[c]{$-$0.001414\\($-$0.003651 to 0.000824)} & 2,502 & \shortstack[c]{0.000579\\($-$0.000569 to 0.001727)} \\
+\midrule
+Excluding the lowest pre-shock wealth quintile & 3,768 & \shortstack[c]{0.001135\\(0.000360 to 0.001909)} & 306 & \shortstack[c]{$-$0.001355\\($-$0.004522 to 0.001812)} & 2,499 & \shortstack[c]{0.000555\\($-$0.000594 to 0.001703)} \\
+\addlinespace[5pt]
+Restricting to losses at or above the cohort-specific 25th percentile & 3,825 & \shortstack[c]{0.001248\\(0.000500 to 0.001995)} & 529 & \shortstack[c]{$-$0.002018\\($-$0.004441 to 0.000405)} & 1,870 & \shortstack[c]{$-$0.000279\\($-$0.001649 to 0.001092)} \\
+\midrule
+Log-transformed wealth-loss proportion adjustment & 5,114 & \shortstack[c]{0.001260\\(0.000607 to 0.001912)} & 699 & \shortstack[c]{$-$0.001375\\($-$0.003613 to 0.000864)} & 2,502 & \shortstack[c]{0.000674\\($-$0.000488 to 0.001836)} \\
+\addlinespace[5pt]
+Restricting to unchanged equivalisation factors & 4,487 & \shortstack[c]{0.001386\\(0.000695 to 0.002077)} & 635 & \shortstack[c]{$-$0.002324\\($-$0.004732 to 0.000083)} & 2,502 & \shortstack[c]{0.000579\\($-$0.000569 to 0.001727)}\textsuperscript{\ensuremath{\dagger}} \\
+\addlinespace[5pt]
+Restricting to positive wealth at the index-shock interview & 3,209 & \shortstack[c]{0.001461\\(0.000633 to 0.002288)} & 472 & \shortstack[c]{$-$0.000527\\($-$0.003185 to 0.002131)} & 801 & \shortstack[c]{0.000768\\($-$0.001103 to 0.002639)} \\
+
+\bottomrule
+\end{tabularx}
+\vspace{5pt}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} Estimates are adjusted differences in annual frailty-index (FI) change between substantial wealth recovery and persistent loss or limited recovery, expressed in FI units/year, with model-based Wald 95\% confidence intervals (CIs). Negative estimates indicate slower annual FI increase in the substantial-recovery group. Models were cohort-specific, unweighted maximum-likelihood linear mixed models with participant-specific random intercepts. Primary estimates are repeated for reference. All analyses retained the original 50\% recovery classification, FI definition and follow-up timing. Sample restrictions were applied at the participant level, retaining all eligible model observations for included participants. The absolute-loss restriction used the 25th percentile among all participants with a first observed qualifying shock in each cohort; thresholds are detailed in Supplementary Methods S2.2. The log-transformed analysis replaced the wealth-loss proportion and its time interaction with standardised $\log(1+\text{loss proportion})$ terms. The equivalisation restriction required the same factor at the pre-shock, shock and landmark interviews. \textsuperscript{\ensuremath{\dagger}}In KLoSA, this factor was always one, so the sample and estimates equal the primary analysis and the model was not refitted. The positive-wealth restriction was a supplementary stress test. Numerical sensitivity involving loss-related adjustment terms warrants caution for the ELSA lowest-quintile exclusion and the HRS and ELSA positive-wealth analyses. Restricted samples represent different populations and do not constitute measurement-error correction. HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\endgroup
+\end{landscape}

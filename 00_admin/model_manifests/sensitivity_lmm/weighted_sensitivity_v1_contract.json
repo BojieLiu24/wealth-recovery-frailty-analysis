@@ -1,0 +1,16 @@
+{
+  "contract_version": "weighted_sensitivity_v1",
+  "status": "LOCKED",
+  "only_changed_component": "weighting",
+  "sample": "weighted_sensitivity_eligible",
+  "weight_source": "positive_exact_landmark_person_weight",
+  "weight_scaling": "cohort_unique_participant_mean_one",
+  "longitudinal_weight": "fixed_within_participant",
+  "software": "WeMix 4.0.3",
+  "weight_levels": ["level_1_conditional_weight_1", "participant_weight"],
+  "cWeights": true,
+  "covariance": "participant_level_CR0",
+  "confidence_interval": "asymptotic_Wald_95_percent",
+  "secondary_meta": false,
+  "primary_parameterisation_and_constants": "inherited_without_recalculation"
+}

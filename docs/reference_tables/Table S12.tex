@@ -1,0 +1,28 @@
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{11.5}\selectfont
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.22}
+\captionof{table}{Sensitivity to Index-Shock-Wave Adjustment.}
+\label{tab:s12_index_shock_wave}
+\begin{tabularx}{\linewidth}{@{}L{6.1cm}L{1.2cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{3.0cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}X@{}}
+\toprule
+Analysis specification & Cohort & \shortstack{Participants,\\$n$} & \shortstack{FI observations,\\$n$} & \shortstack{Adjusted difference\\in annual FI change\\(FI units/year)} & SE & 95\% CI \\
+\midrule
+\textbf{Primary analysis} & HRS & 5,114 & 23,411 & 0.001268 & 0.000330 & 0.000620 to 0.001915 \\
+\addlinespace[4pt]
+ & ELSA & 699 & 2,584 & $-$0.001414 & 0.001142 & $-$0.003651 to 0.000824 \\
+\addlinespace[4pt]
+ & KLoSA & 2,502 & 10,762 & 0.000579 & 0.000586 & $-$0.000569 to 0.001727 \\
+\midrule
+\textbf{Additional index-shock-wave adjustment} & HRS\textsuperscript{\ensuremath{\dagger}} & 5,114 & 23,411 & 0.001116 & 0.000331 & 0.000467 to 0.001764 \\
+\addlinespace[4pt]
+ & ELSA & 699 & 2,584 & $-$0.001369 & 0.001142 & $-$0.003606 to 0.000869 \\
+\addlinespace[4pt]
+ & KLoSA & 2,502 & 10,762 & 0.000621 & 0.000586 & $-$0.000528 to 0.001770 \\
+\bottomrule
+\end{tabularx}
+\vspace{5pt}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} Estimates are adjusted differences in annual frailty-index (FI) change between substantial wealth recovery and persistent loss or limited recovery, in FI units/year. Negative estimates indicate smaller annual FI change in the substantial-recovery group. Models were cohort-specific, unweighted maximum-likelihood linear mixed models with participant-specific random intercepts. The primary analysis included the prespecified covariates and their time interactions. The sensitivity analysis additionally included categorical indicators for the survey wave of the first observed qualifying wealth shock and their interactions with actual elapsed years since the recovery-assessment landmark. Participants, FI observations and recovery classification were unchanged. The recovery-by-time association was common across shock waves; wave-specific recovery associations were not estimated. Confidence intervals are model-based Wald 95\% intervals. Shock-wave adjustment does not identify historical-event effects or exclude other time-related confounding. \textsuperscript{\ensuremath{\dagger}}For the HRS wave-adjusted model, one optimiser terminated with precision loss; the reported candidate was supported by a converged second optimiser and independent likelihood, score and observed-information checks. Further details are provided in Supplementary Methods S2.8. FI, frailty index; SE, standard error; CI, confidence interval; HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\endgroup
+\end{landscape}

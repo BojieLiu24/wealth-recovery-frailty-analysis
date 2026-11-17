@@ -1,0 +1,35 @@
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{11.5}\selectfont
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.22}
+\captionof{table}{Sensitivity to Outcome Timing and Landmark Frailty Adjustment.}
+\label{tab:s11_outcome_timing_landmark_fi}
+\begin{tabularx}{\linewidth}{@{}L{6.1cm}L{1.2cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{3.0cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}X@{}}
+\toprule
+Analysis specification & Cohort & \shortstack{Participants,\\$n$} & \shortstack{FI observations,\\$n$} & \shortstack{Adjusted difference\\in annual FI change\\(FI units/year)} & SE & 95\% CI \\
+\midrule
+\textbf{Primary analysis} & HRS & 5,114 & 23,411 & 0.001268 & 0.000330 & 0.000620 to 0.001915 \\
+\addlinespace[4pt]
+ & ELSA & 699 & 2,584 & $-$0.001414 & 0.001142 & $-$0.003651 to 0.000824 \\
+\addlinespace[4pt]
+ & KLoSA & 2,502 & 10,762 & 0.000579 & 0.000586 & $-$0.000569 to 0.001727 \\
+\midrule
+\textbf{Post-landmark-only FI outcomes} & HRS\textsuperscript{\ensuremath{\dagger}} & 5,114 & 18,297 & 0.001439 & 0.000408 & 0.000640 to 0.002238 \\
+\addlinespace[4pt]
+ & ELSA & 699 & 1,885 & $-$0.001820 & 0.001556 & $-$0.004869 to 0.001229 \\
+\addlinespace[4pt]
+ & KLoSA & 2,502 & 8,260 & 0.000961 & 0.000797 & $-$0.000602 to 0.002523 \\
+\midrule
+\textbf{Post-landmark-only FI outcomes with additional landmark FI adjustment} & HRS & 5,114 & 18,297 & 0.001413 & 0.000402 & 0.000625 to 0.002202 \\
+\addlinespace[4pt]
+ & ELSA & 699 & 1,885 & $-$0.001868 & 0.001542 & $-$0.004891 to 0.001154 \\
+\addlinespace[4pt]
+ & KLoSA & 2,502 & 8,260 & 0.000973 & 0.000790 & $-$0.000575 to 0.002521 \\
+
+\bottomrule
+\end{tabularx}
+\vspace{5pt}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} Estimates are adjusted differences in annual frailty-index (FI) change between substantial wealth recovery and persistent loss or limited recovery, in FI units/year. Negative estimates indicate smaller annual FI change in the substantial-recovery group. Models were cohort-specific, unweighted maximum-likelihood linear mixed models with participant-specific random intercepts. The primary analysis included landmark and eligible subsequent FI outcomes. The post-landmark-only analysis excluded landmark outcomes while retaining the original landmark time origin. The additionally adjusted analysis used identical post-landmark outcome observations and added landmark FI and its time interaction, retaining index-shock FI adjustment. Participants and recovery classification were unchanged. Confidence intervals are model-based Wald 95\% intervals. Additional landmark FI conditioning estimates a different conditional association, not a correction of reverse causation or a causal direct effect. \textsuperscript{\ensuremath{\dagger}}One of the two optimisers did not report convergence for the HRS post-landmark-only model; the reported candidate was supported by independent likelihood and observed-information checks. Residual non-normality and limited distant follow-up remain limitations. Further details are provided in Supplementary Methods S2.7. FI, frailty index; SE, standard error; CI, confidence interval; HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\endgroup
+\end{landscape}

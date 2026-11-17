@@ -1,0 +1,29 @@
+\begin{landscape}
+\fontsize{9}{10.5}\selectfont
+\setlength{\tabcolsep}{2.4pt}
+\renewcommand{\arraystretch}{1.10}
+
+\captionof{table}{Covariate definitions, timing, and longitudinal handling.}
+\label{tab:s4_covariates}
+
+\begin{tabularx}{\linewidth}{@{}L{2.75cm}L{2.15cm}L{4.65cm}L{2.25cm}L{9.25cm}Y@{}}
+\toprule
+Covariate & Variable type & Definition / coding & Measurement timing & Cohort-specific source / coding & Adjustment role \\
+\midrule
+Age & Wave-varying & Continuous, years & $t$ & HRS: \texttt{r\{wave\}agey\_m}; ELSA/KLoSA: \texttt{r\{wave\}agey}. ELSA top-coded at 90; KLoSA age based on survey year minus birth year. & Demographic adjustment \\
+Sex & Fixed & Male; Female & Fixed & \texttt{ragender} in all cohorts & Demographic adjustment \\
+Education & Fixed & Low; Medium; High & Fixed & HRS \texttt{raeduc}: 1 / 2--3 / 4--5; ELSA/KLoSA \texttt{raeducl}: 1 / 2 / 3. Three-level harmonised education categories. & Socioeconomic adjustment \\
+Marital status & Wave-varying & Married/partnered; separated/divorced; widowed; never married & $t$ & HRS \texttt{r\{wave\}mstat}: 1--3 / 4--6 / 7 / 8; ELSA/KLoSA: 1 or 3 / 4 or 5 / 7 / 8 & Social/demographic adjustment \\
+Household size & Wave-varying & Number of household residents & $t$ & \texttt{h\{wave\}hhres} in all cohorts & Household context \\
+Labour-force status & Wave-varying & Working; unemployed; retired/partly retired; other inactive & $t$ & HRS \texttt{r\{wave\}lbrf}: 1--2 / 3 / 4--5 / 6--7; ELSA \texttt{r\{wave\}lbrf\_e}: 1--2 / 3 / 4--5 / 6--7; KLoSA \texttt{r\{wave\}lbrf\_k}: 1--4 / 5 / 6--7 / 8--9 & Socioeconomic adjustment \\
+Household income rank & Wave-varying & Survey-weighted within-cohort and within-wave rank, 0--1 & $t$ & HRS: \texttt{h\{wave\}itot}; ELSA: \texttt{h\{wave\}itot}; KLoSA: \texttt{r\{wave\}itothhinc} & Socioeconomic adjustment \\
+Current smoking & Wave-varying & No; Yes & $t$ & \texttt{r\{wave\}smoken} in all cohorts & Behavioural adjustment \\
+Pre-shock wealth quintile & Wave-varying & Within-cohort and within-wave wealth quintile, 1--5 & $t-1$ & Derived from the cohort-specific wealth measure in Supplementary Table S2 & Pre-shock wealth position \\
+Proportion of wealth lost & Interval-derived & Continuous proportion of wealth lost during the index shock & $t-1$ to $t$ & Derived from cohort-specific wealth at $t-1$ and $t$ & Index-shock severity \\
+Frailty index at shock & Wave-varying & Primary 30-item FI & $t$ & Defined in Supplementary Table S3 & Pre-recovery health adjustment \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.25em}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} Wave-varying covariates were measured at the index-shock interview ($t$), except pre-shock wealth quintile at $t-1$; shock severity was derived over $t-1$ to $t$. Sex and education were treated as fixed characteristics. All adjustment variables were fixed at these prespecified values during follow-up. Household income rank was survey-weighted within cohort and wave. Pre-shock wealth quintiles were defined separately within each cohort and survey wave using the unweighted distribution of all interviewed respondents with valid wealth data, irrespective of age or subsequent shock eligibility. Zero and negative wealth values were retained. Quintile categories were assigned from midrank percentiles using average ranks for ties, with identical wealth values kept in the same category. HRS income represented respondent/spouse income, ELSA benefit-unit income, and KLoSA household income. FI, frailty index; HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\end{landscape}

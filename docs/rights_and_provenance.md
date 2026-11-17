@@ -1,0 +1,9 @@
+# Rights and provenance
+
+Original project code and author-written scientific reference text are distinguished from new portability/verification helpers in the non-public release inventory. The author confirmed that the necessary author/coauthor and institutional permissions for public distribution of these selected materials have been obtained. No copyright ownership is inferred from Git commits or AI-assisted preparation.
+
+No open-source software license is granted in this release. MIT remains a proposal pending explicit license approval; public visibility must not be interpreted as a MIT license. Data-provider conditions and rights to manuscript/reference text are independent of software licensing. Third-party packages are installed from their distributions and retain their own licenses, recorded in `third_party_dependencies.csv`; no package source or third-party graphics is relicensed here.
+
+The original primary model functions, exposure/FI definitions and sensitivity numerical kernels are retained. Adaptations concern source-location resolution, cross-platform R invocation, omission of historical local-path annotations, removal of internal operational contracts, explicitly identified scientific projections, and portable plotting fonts. The new residual-plot helper reconstructs scientific content rather than the original image assembly. Source hashes in aggregate provenance identify original inputs; a different public-file hash reflects selected non-identifying columns, never an edited scientific estimate.
+
+Reference supplementary tables are author-confirmed final scientific text. Internal comments, private execution provenance and source PDF binaries are excluded. Figure 1 graphics, model containers and individual-level data are excluded. Figure 3's unreviewed prediction grid is not distributed.

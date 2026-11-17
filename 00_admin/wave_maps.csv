@@ -1,0 +1,36 @@
+cohort,wave,wave_order,nominal_year,predecessor_wave,successor_wave,year_note,verification_status,semantic_authority,historical_implementation_reference
+HRS,1,1,1992,,2,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,2,2,1994,1,3,AHEAD respondents can have 1993 interviews; use r2iwmid for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,3,3,1996,2,4,AHEAD respondents can have 1995 interviews; use r3iwmid for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,4,4,1998,3,5,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,5,5,2000,4,6,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,6,6,2002,5,7,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,7,7,2004,6,8,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,8,8,2006,7,9,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,9,9,2008,8,10,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,10,10,2010,9,11,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,11,11,2012,10,12,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,12,12,2014,11,13,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,13,13,2016,12,14,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,14,14,2018,13,15,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,15,15,2020,14,16,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+HRS,16,16,2022,15,,Default HRS schedule; use respondent interview date for actual timing,verified,RAND HRS 2022 V1 codebook,HRS historical wealth builder
+ELSA,1,1,2002,,2,Nominal wave year; retain r1iwy and r1iwm as observed timing,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,2,2,2004,1,3,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,3,3,2006,2,4,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,4,4,2008,3,5,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,5,5,2010,4,6,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,6,6,2012,5,7,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,7,7,2014,6,8,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,8,8,2016,7,9,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,9,9,2018,8,10,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+ELSA,10,10,2020,9,,Nominal wave label; retain observed Version H interview year and month without forcing 2020,verified,Gateway Harmonized ELSA Version H codebook,ELSA historical wealth builder
+KLoSA,1,1,2006,,2,Nominal wave year; retain r1iwy and r1iwm as observed timing,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,2,2,2008,1,3,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,3,3,2010,2,4,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,4,4,2012,3,5,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,5,5,2014,4,6,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,6,6,2016,5,7,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,7,7,2018,6,8,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,8,8,2020,7,9,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder
+KLoSA,9,9,2022,8,,Nominal wave year; retain respondent interview year and month,verified,Gateway Harmonized KLoSA Version F codebook,KLoSA historical wealth builder

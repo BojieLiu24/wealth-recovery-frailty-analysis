@@ -1,0 +1,30 @@
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{11.5}\selectfont
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.22}
+\captionof{table}{Sensitivity to Random-Effects Structure and Nonlinear Time Specification.}
+\label{tab:s10_random_slope_nonlinear}
+\begin{tabularx}{\linewidth}{@{}L{5.0cm}*{3}{>{\centering\arraybackslash}X>{\centering\arraybackslash}p{1.6cm}}@{}}
+\toprule
+ & \multicolumn{2}{c}{\shortstack{HRS\\Participants: 5,114; FI observations: 23,411}} & \multicolumn{2}{c}{\shortstack{ELSA\\Participants: 699; FI observations: 2,584}} & \multicolumn{2}{c}{\shortstack{KLoSA\\Participants: 2,502; FI observations: 10,762}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Model specification / contrast & Estimate (95\% CI) & SE & Estimate (95\% CI) & SE & Estimate (95\% CI) & SE \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{Random-effects structure (FI units/year)}} \\
+\addlinespace[3pt]
+Primary random-intercept model & \shortstack[c]{0.001268\\(0.000620 to 0.001915)} & 0.000330 & \shortstack[c]{$-$0.001414\\($-$0.003651 to 0.000824)} & 0.001142 & \shortstack[c]{0.000579\\($-$0.000569 to 0.001727)} & 0.000586 \\
+\addlinespace[5pt]
+Random-intercept and random-slope model & \shortstack[c]{0.000886\\($-$0.000386 to 0.002157)} & 0.000649 & \shortstack[c]{0.000316\\($-$0.002784 to 0.003417)} & 0.001582 & \shortstack[c]{0.000481\\($-$0.001178 to 0.002140)} & 0.000846 \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{Nonlinear time specification}} \\
+\addlinespace[3pt]
+Average annual difference over 0--8 years, $A_{0,8}$ (FI units/year) & \shortstack[c]{0.000734\\($-$0.000221 to 0.001689)} & 0.000487 & \shortstack[c]{$-$0.000745\\($-$0.003107 to 0.001617)} & 0.001205 & \shortstack[c]{0.000444\\($-$0.000802 to 0.001690)} & 0.000636 \\
+\addlinespace[5pt]
+Difference in FI change over 0--8 years, $C(8)$ (FI units) & \shortstack[c]{0.005872\\($-$0.001771 to 0.013515)} & 0.003900 & \shortstack[c]{$-$0.005959\\($-$0.024855 to 0.012936)} & 0.009641 & \shortstack[c]{0.003550\\($-$0.006420 to 0.013520)} & 0.005087 \\
+\bottomrule
+\end{tabularx}
+\vspace{5pt}
+\parbox{\linewidth}{\raggedright\fontsize{9}{11}\selectfont\textit{Notes:} Estimates compare substantial wealth recovery with persistent loss or limited recovery; positive values indicate greater FI change in the substantial-recovery group, and negative values indicate smaller FI change. All models used the same cohort-specific primary participants and FI observations. The random-effects structure group reports constant annual differences from linear-time models, in FI units/year. The nonlinear time specification group reports the average annual difference over 0--8 years, $A_{0,8}=[D(8)-D(0)]/8$ (FI units/year), and the corresponding difference in FI change, $C(8)=D(8)-D(0)$ (FI units), where $D(t)$ is the standardised between-group FI level difference. Thus, $C(8)=8A_{0,8}$ is a rescaling of the average annual contrast, not independent evidence. Models were fitted using all eligible follow-up observations; 0--8 years was the specified summary interval. Confidence intervals are model-based Wald intervals. Residual departures from Gaussian assumptions and limited later follow-up support remain relevant limitations. Model specifications and contrast calculations are described in Supplementary Methods S2.6. FI, frailty index; SE, standard error; CI, confidence interval; HRS, Health and Retirement Study; ELSA, English Longitudinal Study of Ageing; KLoSA, Korean Longitudinal Study of Aging.}
+\endgroup
+\end{landscape}
